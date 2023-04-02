@@ -1,1 +1,5 @@
-
+user_string=input('enter string: ')
+user_word=input('enter word you wanna change: ')
+user_change=input('enter the word for changing: ')
+new_user_string=user_string.replace(user_word, user_change )
+print(new_user_string)
