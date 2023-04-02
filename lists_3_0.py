@@ -1,11 +1,13 @@
 
 try:
   user_list=input("enter numbers for list with comma: ")
-
-  user_list.reverse()
-  print(user_list)
+  list=[int(nums) for nums in user_list.split(",")]
+  #list.append(user_list)
+  list.reverse()
+  print(list)
 except:
   print("input numbers with comma")
 finally:
         print ('done')
+
     
